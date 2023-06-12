@@ -105,7 +105,7 @@ animate = true
   intro = "Hey 👋, my name is"
   title = "Carson"
   subtitle = "I build and break computer programs"
-  content = "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+  content = "As a recent college graduate with a deep fascination for cybersecurity, I am eager to learn and contribute to the industry. Combining my expertise in systems programming with a passion for digital defense, I am committed to mastering the complexities of safeguarding information in an ever-evolving landscape."
   image = "/images/hero.svg"
 
     [params.hero.bottomImage]
