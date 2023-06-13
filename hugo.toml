@@ -139,7 +139,7 @@ url = "https://www.linkedin.com/in/carson-webster-91382a149/"
   content = """
 I am a recent UCSC Bachelor’s of Science graduate majoring in Computer Science and minoring in Technical Information Management. I am currently spending my time exploring cybersecurity topics and practicing through CTF challenges. 
 
-When outside of my Pen Testing VM, I enjoy exploring the world of functional and stable systems / web frameworks producing clean, efficient code.
+When outside of my Pen Testing VM, I enjoy exploring the world of functional languages and stable systems producing clean, efficient code and infrastructure.
   """
 
     [params.about.skills]
@@ -306,7 +306,7 @@ Extracurricular Activities
 
     [[params.projects.items]]
     title = "Recipe Wizard"
-    content = "A fun Web Applications final class project. Using OpenAI's models and API, AI cooking recipes are generated with what's given in the user's pantry. Good recipes can be favorited for later, and a user's top recipe can be pinned for all other user's to view."
+    content = "A fun Web Applications final class project. Using OpenAI's models and API, AI cooking recipes are generated with what's given in the users pantry. Good recipes can be favorited for later, and a users top recipecan be pinned for all other user's to view."
     image = "/images/recipewizardlogo.png"
     badges = [ "Py4Web", "Vue", "Javascript", "HTML / CSS" , "GPT" ]
 
