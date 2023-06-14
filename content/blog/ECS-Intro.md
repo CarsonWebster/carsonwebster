@@ -12,7 +12,7 @@ image: /SlugECS/ECSImage.png
 description: "A glimpse into Entity Component Systems, With a Bevy of Slugs"
 toc: true
 ---
-During my last year in college, I was privileged enough to research and present a technical topic to my peers. Since I have had all the research done, I'll also share my findings here. 
+During my last year in college, I was privileged enough to research and present a technical topic to my peers. Since I have all the research done, I'll also share my findings here. 
 
 ## What is ECS?
 Entity-Component-System (ECS) architecture is a relatively new software design pattern that has gained widespread popularity in the gaming and simulation industry due to its flexibility and performance benefits. ECS separates an object’s data and behavior into two distinct components: entities and components. An entity is an object in the game world, while a component is an attribute or behavior of that entity. This architecture provides a framework for managing these entities and components, allowing for a more efficient and organized development process.
@@ -20,7 +20,7 @@ Entity-Component-System (ECS) architecture is a relatively new software design p
 ECS offers several advantages over other software design patterns. Firstly, ECS architecture allows for easy modification and extension of code, which is crucial for game development where requirements are constantly changing. Secondly, ECS offers better performance than other design patterns due to its focus on data-oriented design, which allows for better memory usage and cache locality. Thirdly, ECS architecture favors composition over inheritance, allowing for greater flexibility by defining an entity by its traits rather than using a fixed inheritance tree.
 
 ## Entity Component Systems Motivation
-ECS arose from developer's frustration with the object orientated model. If you're unfamiliar with this programming approach, it's largely explained with a root object or class with basic functionality being inherited by sub modules or sub classes with additional functionality added on top from the base module or class. This approach is commonly used in `C++`, `Java`, `Javascript/Typescript`, and sometimes `Python`, among others. This approach of class inheritance while useful in many programs, could create restrictions and headaches as the program / program / simulation grows more complex. 
+ECS arose from developer's frustration with the object orientated model. If you're unfamiliar with this programming approach, it's largely explained with a root object or class with basic functionality being inherited by sub modules or sub classes with additional functionality added on top from the base module or class. This approach is commonly used in `C++`, `Java`, `Javascript/Typescript`, and sometimes `Python`, among others. This approach of class inheritance while useful in many programs, could create restrictions and headaches as the program / video game / simulation grows more complex. 
 
 Take this example:
 ![Animal OOP example](/SlugECS/hierarchy.png)
@@ -59,7 +59,7 @@ Three words, three concepts, three tools that have the ability to flexibly and e
 ### Systems
 - Functions that are run to query and mutate components.
 - The logic of the program. Defines how an entities components will change over time.
-- Just a regular plain ol function! Has the ability to query entities and change it's component data: 
+- Just a regular plain ol' function! Has the ability to query entities and change it's component data: 
 	- `fn update_position(enemies)`
 
 ## How does ECS work?
