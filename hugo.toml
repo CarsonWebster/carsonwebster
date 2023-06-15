@@ -310,9 +310,9 @@ Extracurricular Activities
     image = "/images/recipewizardlogo.png"
     badges = [ "Py4Web", "Vue", "Javascript", "HTML / CSS" , "GPT" ]
 
-      # [params.projects.items.featured]
-      # name = "Demo V2"
-      # link = "https://hugo-profile-2.netlify.app"
+      [params.projects.items.featured]
+      name = "Demo Site"
+      link = "http://recipewizard.carsonwebster.com/rw/"
 
       [[params.projects.items.links]]
       icon = "fab fa-github"
