@@ -231,8 +231,10 @@ I am currently working as a software developer at [example org.](https://example
     [[params.education.items]]
     title = "Bachelor of Science in Computer Science"
     date = "2019 - 2023"
-    GPA = "3.2 out of 4.0"
+    # GPA = "3.2 out of 4.0"
     content = """
+Minor in Technical Information Management
+
 Extracurricular Activities
   - https://slugsec.ucsc.edu/ - Cybersecurity workshop and compeition club
   - Men's Club Lacrosse Team
@@ -250,7 +252,7 @@ Extracurricular Activities
     [[params.education.items]]
     title = "High School"
     date = "2015 - 2019"
-    GPA = "4.2 out of 5.0"
+    # GPA = "4.2 out of 5.0"
     content = """
 Extracurricular Activities
   - CyberSecurity learning club - President
