@@ -148,81 +148,58 @@ When outside of my Pen Testing VM, I enjoy exploring the world of functional lan
     items = [ "Unix (NixOS, Debian, Arch)", "Rust", "Bash + Powershell", "Sveltekit + Typescript", "Auditing Tools (Nmap, NetCat, Burp, SQLmap, Metasploit)", "Docker + Compose" ]
 
   [params.experience]
-  enable = false
+  enable = true
 
     [[params.experience.items]]
-    job = "Senior Software Developer"
-    company = "Facebook"
-    companyUrl = "https://example.com"
-    date = "Jan 2022 - present"
-    content = "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
-      [params.experience.items.featuredLink]
-      enable = true
-      name = "View the project"
-      url = "https://example.com"
-
-    [[params.experience.items]]
-    job = "Software Developer"
-    company = "Amazon"
-    companyUrl = "https://example.com"
-    date = "Sep 2020 - Dec 2021"
+    job = "Security+ Certification"
+    company = "CompTIA"
+    companyUrl = "https://www.comptia.org/faq/security/what-is-comptia-security-certification"
+    date = "Expected June 2023"
     content = """
-I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-- Lead backend developer for a product.
-- Created a frontend design for a product.
-"""
-
-      [params.experience.items.featuredLink]
-      enable = true
-      url = "https://example.com"
-
-      [params.experience.items.info]
-      enable = true
-      content = "I worked as a software developer for more than one year in Amazon."
-
-    [[params.experience.items]]
-    job = "Junior Software Developer"
-    company = "Apple"
-    companyUrl = "https://example.com"
-    date = "Jan 2020 - Aug 2020"
-    content = """
-I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-- Lead backend developer for a product.
-- Created a frontend design for a product.
+- CompTIA Security+ is a global certification that validates the baseline skills you need to perform core security functions and pursue an IT security career.
 """
 
       [params.experience.items.info]
       enable = false
 
       [params.experience.items.featuredLink]
-      enable = true
+      enable = false
+      name = "View the project"
       url = "https://example.com"
 
     [[params.experience.items]]
-    job = "UI/UX Designer"
-    company = "Netflix"
-    companyUrl = "https://example.com"
-    date = "June 2017 - Nov 2019"
+    job = "Lead Code Tutor"
+    company = "Code Ninjas"
+    companyUrl = "https://www.codeninjas.com/ca-chula-vista"
+    date = "February 2019 - January 2020"
     content = """
-I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-- Lead backend developer for a product.
-- Created a frontend design for a product.
+- Lead tutor in after school computer science game development program for children aged 7-14.
+- Managed day to day store operations with my team.
+- Summer camp lead teacher holding programming classes and other STEM activities.
+- Developed prototype of a new pathway progress tracker used to notify us if a student beings to fall behind in curriculum.
 """
 
-      [params.experience.items.featuredLink]
-      enable = true
-      url = "https://example.com"
+      # [params.experience.items.featuredLink]
+      # enable = false
+      # url = "https://example.com"
+
+      [params.experience.items.info]
+      enable = false
+      # content = ""
 
     [[params.experience.items]]
-    job = "Product Designer"
-    company = "Google"
-    companyUrl = "https://example.com"
-    date = "Feb 2016 - Mar 2017"
-    content = "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+    job = "Lifeguard and Swim Instructor"
+    company = "City of Chula Vista"
+    companyUrl = "https://www.chulavistaca.gov/departments/parks-and-recreation/community-centers/parkway-aquatic-center"
+    date = "November 2017 - January 2019"
+    content = """
+- Enforced pool safety rules, preformed rescues when required, and other operational tasks.
+- Held swim classes with children 4-12 creating a fun, educational, and safe pool classroom environment.
+"""
+
+      [params.experience.items.info]
+      enable = false
+
 
   [params.education]
   enable = true
@@ -270,6 +247,12 @@ Extracurricular Activities
 
   [params.achievements]
   enable = true
+
+    [[params.achievements.items]]
+    title = "CompTIA Security+ Certification"
+    content = ""
+    image = "/images/achievements/securityplus.png"
+    url = ""
 
     [[params.achievements.items]]
     title = "CruzHacks Hackathon Winner"
@@ -337,7 +320,7 @@ disableFeaturedImage = false
 [params.footer.socialNetworks]
 github = "https://github.com/CarsonWebster"
 linkedin = "https://linkedin.com/in/carson-webster-91382a149/"
-twitter = "https://twitter.com/CarsonWebster5"
+# twitter = "https://twitter.com/CarsonWebster5"
 instagram = "https://instagram.com/Yowerz"
 
   # List pages like blogs and posts
