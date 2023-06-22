@@ -249,12 +249,6 @@ Extracurricular Activities
   enable = true
 
     [[params.achievements.items]]
-    title = "CompTIA Security+ Certification"
-    content = ""
-    image = "/images/achievements/securityplus.png"
-    url = ""
-
-    [[params.achievements.items]]
     title = "CruzHacks Hackathon Winner"
     content = "Developed the first iteration of ResumeWizard. A resume building web application creating LaTeX exported resume from forms with OpenAI's GPT ability to touch up the resume."
     url = "https://devpost.com/software/wikigen"
