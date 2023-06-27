@@ -107,7 +107,7 @@ animate = true
   subtitle = "I build and break computer programs"
   content = "As a recent college graduate with a deep fascination for cybersecurity, I am eager to learn and contribute to the industry. Combining my expertise in systems programming with a passion for digital defense, I am committed to mastering the complexities of safeguarding information in an ever-evolving landscape."
   # image = "/images/hero.svg"
-  image = "/images/cows.JPG"
+  image = "/images/me.jpeg"
 
     [params.hero.bottomImage]
     enable = true
@@ -135,7 +135,7 @@ url = "https://www.linkedin.com/in/carson-webster-91382a149/"
   [params.about]
   enable = true
   title = "About Me"
-  image = "/images/me.jpg"
+  image = "/images/squiggle.jpeg"
   content = """
 I am a recent UCSC Bachelor’s of Science graduate majoring in Computer Science and minoring in Technical Information Management. I am currently spending my time exploring cybersecurity topics and practicing through CTF challenges. 
 
