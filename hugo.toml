@@ -145,7 +145,7 @@ When outside of my Pen Testing VM, I enjoy exploring the world of functional lan
     [params.about.skills]
     enable = true
     title = "Here are a few technologies I've been working with recently:"
-    items = [ "Unix (NixOS, Debian, Arch)", "Rust", "Bash + Powershell", "Sveltekit + Typescript", "Auditing Tools (Nmap, NetCat, Burp, SQLmap, Metasploit)", "Docker + Compose" ]
+    items = [ "Unix (NixOS, Debian, Arch)", "Rust and Go", "Bash + Powershell", "Sveltekit + Typescript", "Auditing Tools (Nmap, NetCat, Burp, SQLmap, Metasploit)", "Docker + Compose" ]
 
   [params.experience]
   enable = true
