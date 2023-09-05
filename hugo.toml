@@ -265,7 +265,8 @@ Extracurricular Activities
     [[params.projects.items]]
     title = "YowerzSecSuite"
     content = "A collection of useful Golang Tools / Scripts for network auditing and penetration testing."
-    image = "/images/GolangRobber.jpg"
+    # image = "/images/GolangRobber.jpg"
+    image = "/images/GolangRobber.png"
     badges = [ "Golang", "Penetration Testing", "Network Auditing", "Active Development" ]
 
       [params.projects.items.featured]
