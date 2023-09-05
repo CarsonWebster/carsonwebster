@@ -45,8 +45,8 @@ weight = 1
     #   weight: 2
 
 [params]
-title = "Hugo Profile"
-description = "Text about my cool site"
+title = "Carson Webster"
+description = "Carson Webster's personal portfolio website"
 # staticPath: ""  # The path to serve the static files from
 favicon = "/images/shieldicon.png"
 # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
@@ -214,6 +214,7 @@ Minor in Technical Information Management
 
 Extracurricular Activities
   - https://slugsec.ucsc.edu/ - Cybersecurity workshop and compeition club
+  - https://cruzhacks.com/ - Hackathon event
   - Men's Club Lacrosse Team
   """
 
@@ -226,24 +227,24 @@ Extracurricular Activities
       name = "My academic record"
       url = "https://example.com"
 
-    [[params.education.items]]
-    title = "High School"
-    date = "2015 - 2019"
-    # GPA = "4.2 out of 5.0"
-    content = """
-Extracurricular Activities
-  - CyberSecurity learning club - President
-  - Men's Lacrosse Team - Captain
-  """
+#     [[params.education.items]]
+#     title = "High School"
+#     date = "2015 - 2019"
+#     # GPA = "4.2 out of 5.0"
+#     content = """
+# Extracurricular Activities
+#   - CyberSecurity learning club - President
+#   - Men's Lacrosse Team - Captain
+#   """
 
-      [params.education.items.school]
-      name = "Eastlake High School, Chula Vista"
-      url = "https://elh.sweetwaterschools.org/about-us/"
+#       [params.education.items.school]
+#       name = "Eastlake High School, Chula Vista"
+#       url = "https://elh.sweetwaterschools.org/about-us/"
 
-      [params.education.items.featuredLink]
-      enable = false
-      url = "https://example.com"
-      name = "My academic record"
+#       [params.education.items.featuredLink]
+#       enable = false
+#       url = "https://example.com"
+#       name = "My academic record"
 
   [params.achievements]
   enable = true
@@ -260,6 +261,20 @@ Extracurricular Activities
 
   [params.projects]
   enable = true
+
+    [[params.projects.items]]
+    title = "YowerzSecSuite"
+    content = "A collection of useful Golang Tools / Scripts for network auditing and penetration testing."
+    image = "/images/GolangRobber.jpg"
+    badges = [ "Golang", "Penetration Testing", "Network Auditing", "Active Development" ]
+
+      [params.projects.items.featured]
+      name = "Github"
+      link = "https://github.com/CarsonWebster/YowerzSecSuite"
+ 
+      [[params.projects.items.links]]
+      icon = "fab fa-github"
+      url = "https://github.com/CarsonWebster/YowerzSecSuite"
 
     [[params.projects.items]]
     title = "Resume Wizard"
