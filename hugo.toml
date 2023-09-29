@@ -116,7 +116,7 @@ animate = true
     [params.hero.button]
     enable = true
     name = "Resume"
-    url = "/Resume_Carson_Webster.pdf"
+    url = "/Carson_Webster_Resume.pdf"
     download = true
     newPage = false
 
