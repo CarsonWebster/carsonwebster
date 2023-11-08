@@ -107,7 +107,7 @@ animate = true
   subtitle = "I build and break computer programs"
   content = "As a recent college graduate with a deep fascination for cybersecurity, I am eager to learn and contribute to the industry. Combining my expertise in systems programming with a passion for digital defense, I am committed to mastering the complexities of safeguarding information in an ever-evolving landscape."
   # image = "/images/hero.svg"
-  image = "/images/me.jpeg"
+  image = "/images/SuitBay.jpg"
 
     [params.hero.bottomImage]
     enable = true
@@ -135,7 +135,8 @@ url = "https://www.linkedin.com/in/carson-webster-91382a149/"
   [params.about]
   enable = true
   title = "About Me"
-  image = "/images/squiggle.jpeg"
+  # image = "/images/squiggle.jpeg"
+  image = "/images/SuitPark.jpg"
   content = """
 I am a recent UCSC Bachelor’s of Science graduate majoring in Computer Science and minoring in Technical Information Management. I am currently spending my time exploring cybersecurity topics and practicing through CTF challenges. 
 
@@ -149,6 +150,26 @@ When outside of my Pen Testing VM, I enjoy exploring the world of functional lan
 
   [params.experience]
   enable = true
+  
+
+    [[params.experience.items]]
+    job = "IT Service Desk Analyst"
+    company = "Science Applications International Corportation"
+    companyUrl = "https://saic.com"
+    date = "November 1st 2023 - Present"
+    content = """
+  - Rapid Technical Support: Provided swift and accurate tech assistance via various channels, resolving hardware, software, and network issues remotely.
+  - Customer-Centric Communication: Fostered strong client relations, guided users through issue resolution, and collaborated with specialists for complex cases.
+  - Operational Support: Streamlined departmental operations by managing documents, conducting system tests and updates, and ensuring smooth support workflows.
+"""
+
+      [params.experience.items.info]
+      enable = false
+
+      [params.experience.items.featuredLink]
+      enable = false
+      name = "Comapny Site"
+      url = "https://saic.com"
 
     [[params.experience.items]]
     job = "Security+ Certification"
