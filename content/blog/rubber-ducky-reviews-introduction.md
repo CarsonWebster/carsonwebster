@@ -15,7 +15,7 @@ toc: true
 ## Introduction
 
 ### The Web's Humble Beginnings
-Websites used to be simple. A little birdie once told me what before my time all the internet needed to be was the Hyper-Text-Transfer-Protocol working to share information written in simple Hyper-Text-Markup-Langauge documents. 
+Websites used to be simple. A little birdie once told me that before my time all the internet needed to be was the HTTP compliant to share information written in a simple HTML document. 
 
 ### The Simple HTML Era
 Just a little bit of:
