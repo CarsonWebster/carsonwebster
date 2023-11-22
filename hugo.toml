@@ -304,9 +304,9 @@ Extracurricular Activities
     image = "/images/resumewizardlogo.png"
     badges = [ "Typescript", "Sveltekit", "Pocketbase", "Docker", "Linode" ]
 
-      [params.projects.items.featured]
-      name = "Site"
-      link = "https://ResumeWizard.tech"
+      # [params.projects.items.featured]
+      # name = "Site"
+      # link = "https://ResumeWizard.tech"
 
       # [[params.projects.items.links]]
       # icon = "fa fa-envelope"
@@ -326,9 +326,9 @@ Extracurricular Activities
     image = "/images/recipewizardlogo.png"
     badges = [ "Py4Web", "Vue", "Javascript", "HTML / CSS" , "GPT" ]
 
-      [params.projects.items.featured]
-      name = "Demo Site"
-      link = "http://recipewizard.carsonwebster.com/rw/"
+      # [params.projects.items.featured]
+      # name = "Demo Site"
+      # link = "http://recipewizard.carsonwebster.com/rw/"
 
       [[params.projects.items.links]]
       icon = "fab fa-github"
