@@ -290,9 +290,9 @@ Extracurricular Activities
     image = "/images/GolangRobber.png"
     badges = [ "Golang", "Penetration Testing", "Network Auditing", "Active Development" ]
 
-      [params.projects.items.featured]
-      name = "Github"
-      link = "https://github.com/CarsonWebster/YowerzSecSuite"
+      # [params.projects.items.featured]
+      # name = "Github"
+      # link = "https://github.com/CarsonWebster/YowerzSecSuite"
  
       [[params.projects.items.links]]
       icon = "fab fa-github"
