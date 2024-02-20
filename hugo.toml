@@ -126,7 +126,7 @@ url = "https://github.com/CarsonWebster"
 
 [[params.hero.socialLinks.fontAwesomeIcons]]
 icon = "fab fa-linkedin"
-url = "https://www.linkedin.com/in/carson-webster-91382a149/"
+url = "https://www.linkedin.com/in/carsonwebster"
 
 # [[params.hero.socialLinks.customIcons]]
 # icon = "/fav.png"
@@ -283,12 +283,26 @@ Extracurricular Activities
   [params.projects]
   enable = true
 
+  # [[params.projects.items]]
+  # title = "RustGuard"
+  # content = "High-Performance Intrusion Detection System"
+  # image = "/images/GolangRobber.png"
+  # badges = [ "Rust", "Tauri", "SvelteKit", "Network Monitoring", "Active Development" ]
+
+    # [params.projects.items.featured]
+    # name = "Github"
+    # link = "https://github.com/CarsonWebster/YowerzSecSuite"
+
+    # [[params.projects.items.links]]
+    # icon = "fab fa-github"
+    # url = "https://github.com/CarsonWebster/YowerzSecSuite"
+
     [[params.projects.items]]
     title = "YowerzSecSuite"
     content = "A collection of useful Golang Tools / Scripts for network auditing and penetration testing."
     # image = "/images/GolangRobber.jpg"
     image = "/images/GolangRobber.png"
-    badges = [ "Golang", "Penetration Testing", "Network Auditing", "Active Development" ]
+    badges = [ "Golang", "Penetration Testing", "Network Auditing" ]
 
       # [params.projects.items.featured]
       # name = "Github"
