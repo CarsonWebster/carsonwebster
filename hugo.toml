@@ -158,23 +158,25 @@ items = [
 [params.experience]
 enable = true
 
+[[params.experience.items]]
+job = "Software Engineer"
+company = "Lockheed Martain Space Systems Comapny"
+companyUrl = "https://www.lockheedmartin.com/en-us/who-we-are/business-areas/space.html"
+date = "Febuary 2025 - Present"
+content = """
+  - Develop telemetry and commanding ground computer systems and applications to support pre-flight checkout, integration, and testing.
+  - Design and implement electronic ground support equipment and software for interacting with in-development flight scientific instruments.
+  - Build and deploy applications for real-time telemetry display and spacecraft commanding, ensuring seamless communication and control during missions.
+"""
+
 
 [[params.experience.items]]
 job = "System Engineer"
 company = "Lockheed Martain via Point Solutions Group"
 companyUrl = "https://www.lockheedmartin.com"
-date = "April 2024 - Present"
+date = "May 2024 - Febuary 2025"
 content = """
-  - Satellite telemetry systems SME responsible for developing and maintaining eight active Telemetry Record and Receive
-(TRR)/Telemetry Distribution and Archive (TDA) systems, ensuring 99.9% system uptime. Spearheaded improvements
-in real-time satellite data distribution to analysts’ InControl clients, enhancing data accuracy and enabling critical
-decision-making for satellite health and operations.
-  - Developed, maintained, and debugged TRR/TDA control and telemetry decryption/decommutation software, optimizing
-VxWorks real-time Linux modules and enhancing Tcl/Tk and Python client GUI/control servers. Improved C socket
-data distribution services and implemented automated service restart procedures, eliminating the need for weekly manual
-interventions and increasing system reliability.
-  - System administrator for 30 Solaris systems interfacing with TRR/TDAs, ensuring full DISA STIG and cybersecurity
-compliance, including regular audits, patch management, and system hardening to prevent non-compliance incidents.
+  - Preforming VxWorks embedded C programing and Linux system adminstration tasks.
 """
 
 [[params.experience.items]]
