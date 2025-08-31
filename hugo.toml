@@ -173,7 +173,7 @@ content = """
 [[params.experience.items]]
 job = "System Engineer"
 company = "Lockheed Martain via Point Solutions Group"
-companyUrl = "https://www.lockheedmartin.com"
+companyUrl = "https://pointsolutionsus.com/"
 date = "May 2024 - Febuary 2025"
 content = """
   - Preforming VxWorks embedded C programing and Linux system adminstration tasks.
